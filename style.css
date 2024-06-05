@@ -33,5 +33,16 @@ footer {
     .second-line {
         padding-left: 2rem;
         padding-right: 2rem;
+        border-bottom: 1px solid #392d23;
+    }
+}
+
+.third-line {
+    display: none;
+}
+
+@media screen and (max-width:48rem) {
+    .third-line {
+        display: block;
     }
 }
